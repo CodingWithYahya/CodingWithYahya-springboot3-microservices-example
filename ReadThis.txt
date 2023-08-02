@@ -1,0 +1,17 @@
+CodingWithYahya/springboot3-microservices-example
+
+Ce référentiel GitHub présente un exemple complet d'architecture de microservices développée avec Spring Boot 3 et utilisant des outils et des technologies populaires pour faciliter la mise en place d'un écosystème de microservices évolutif et résilient.
+
+Les principaux composants de cet exemple sont :
+
+Spring Boot 3 : La dernière version de Spring Boot est utilisée pour créer des microservices indépendants et autonomes.
+
+Eureka : Ce projet utilise Netflix Eureka, qui est un service de découverte de microservices permettant l'enregistrement et la localisation des instances de services en cours d'exécution.
+
+Spring Cloud : Spring Cloud offre une variété de bibliothèques et d'outils pour aider à la mise en œuvre de modèles de microservices tels que la gestion de configuration, la tolérance aux pannes, le routage, etc.
+
+Zipkin : Zipkin est utilisé pour le suivi des requêtes entre les microservices, permettant une meilleure visibilité et un débogage facilité des appels réseau.
+
+API Gateway : Un API Gateway est implémenté pour offrir un point d'entrée unique pour les clients, simplifiant ainsi l'accès aux différents microservices du système.
+
+Services de département et d'employés : L'exemple comprend deux microservices fonctionnels : le service de département et le service d'employés. Ces services démontrent comment ils peuvent communiquer via Eureka et comment le suivi est géré via Zipkin.
